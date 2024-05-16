@@ -34,6 +34,12 @@ Once the text is tokenized, each token is converted into a numerical format that
 Think of it like a special kind of GPS system for words. Just like how GPS coordinates help your phone navigate to a specific location, these special coordinates (vectors) help the computer understand the meaning and context of each word.
 
 These special coordinates are learned by the computer when it's trained on a massive amount of text data. This training helps the computer understand how words relate to each other, including their meanings, grammar, and syntax.
+
+<figure>
+  <p align=center><iframe src="https://giphy.com/embed/l6oxet59Gdv1dU8Fva" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></p>
+  <figcaption><center>A representation of the embedding. The difference between swimming and duathlon is approximately running, showing the semantic relation between them. Author: Self.</center></figcaption>
+</figure>
+
 ### 3. Passing through the Transformer Layers
 After converting words into special math problems (vectors), the model uses a powerful architecture named transformer to understand the relationships between these words.
 
