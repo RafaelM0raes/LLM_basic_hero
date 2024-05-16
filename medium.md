@@ -22,10 +22,13 @@ With these description, it seems that deploying your first custom solution using
 
 
 ## 1. Making a basic chat model
+
 Understanding how data moves through a large language model (LLM) like OpenAI's GPT (Generative Pre-trained Transformer) is fascinating and involves several steps. Here's a simplified breakdown of the process from the moment the data is inputted (in this case, text) to when the user receives an answer. Let's explore this process step-by-step:
 ### 1. Tokenization
+
 The journey begins when you input your text into the LLM. The first step the model undertakes is tokenization. Tokenization is the process of converting the input text into smaller pieces, known as tokens. These tokens are not just words but can include parts of words or punctuation. For instance, the text "Don't stop learning!" might be broken down into tokens like ["Don't", "stop", "learning", "!"]. This is crucial because the model processes these tokens, not the original text.
 ### 2. Embedding
+
 Once the text is tokenized, each token is converted into a numerical format that the model can understand. Imagine each token is like a word on a map. The computer creates a special set of coordinates (like latitude and longitude) that represents each word. These coordinates are like a secret code that the computer can understand.
 
 Think of it like a special kind of GPS system for words. Just like how GPS coordinates help your phone navigate to a specific location, these special coordinates (vectors) help the computer understand the meaning and context of each word.
